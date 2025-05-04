@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "=== Starting Build ==="
+echo "Cloned from GitHub successfully!"
+echo "Running some example commands..."
+
+# Example: create a file
+touch build_output.txt
+echo "Build done at $(date)" > build_output.txt
+
+echo "=== Build Completed ==="
